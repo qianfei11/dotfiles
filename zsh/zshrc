@@ -7,7 +7,6 @@ export LANG=en_US.UTF-8
 export EDITOR='vim'
 
 test -e "${HOME}/.iterm2_shell_integration.zsh" && source "${HOME}/.iterm2_shell_integration.zsh"
-PATH=/usr/local/go/bin:$PATH
 
 z_replacement()
 {
