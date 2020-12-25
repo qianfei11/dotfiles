@@ -257,3 +257,7 @@ noremap <Leader>sj :IndentGuidesToggle<CR>
 " 每行不能超过80字符，否则高亮显示
 highlight OverLength ctermbg=red ctermfg=white guibg=#592929
 match OverLength /\%80v.\+/
+
+" fix display >4;2m error
+let &t_TI = ""
+let &t_TE = ""
