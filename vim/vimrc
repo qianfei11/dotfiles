@@ -138,6 +138,7 @@ Plugin 'vim-scripts/Markdown'
 Plugin 'tpope/vim-surround'
 Plugin 'ekalinin/Dockerfile.vim'
 Plugin 'ConradIrwin/vim-bracketed-paste' " 使用bracketed-paste mode，粘贴代码时避免格式化
+Plugin 'flazz/vim-colorschemes'
 " 插件列表结束
 call vundle#end()
 filetype on
