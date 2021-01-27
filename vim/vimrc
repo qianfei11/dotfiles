@@ -211,7 +211,7 @@ let NERDTreeMinimalUI=1
 " 删除文件时自动删除文件对应 buffer
 let NERDTreeAutoDeleteBuffer=1
 " 开启VIM自动打开NERDTree
-autocmd vimenter * NERDTree
+"autocmd vimenter * NERDTree
 " 设置Git样式
 let g:NERDTreeGitStatusIndicatorMapCustom = {
     \ "Modified"  : "✹",
